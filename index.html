@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <title>Formas de implementar estilos css</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <style type="text/css">
+     .interno{
+      font-weight: bold; color:lightseagreen; font-family: arial; font-size: 20px;
+     }
+     .parrafo{
+      font-weight: bold; color:#6420b2; font-family: arial; font-size: 20px;
+     }
+    </style>
+</head>
+<body>
+  <h1>Formas de implementar estilos css.</h1>
+  <ul>
+    <li style="font-weight: bold; color:lightseagreen; font-family: arial; font-size: 20px;" >Inline</li>
+    <li class="interno">Interno</li>
+    <li>Externo</li>
+  </ul>
+  <h3 style="font-weight: bold; color:#6420b2; font-family: arial; font-size: 20px;">Inline</h3>
+  <p style="font-family: arial; font-size: 18px;">Las instrucciones css en línea son aquellas que se escriben directamente a la etiqueta en el archivo HTML en lugar de utilizarlas en un archivo CSS externo.</p>
+  <h3 class="parrafo">Interno</h3>
+  <p>Las diferentes propiedades y valores se pueden poner en una misma línea o en distintas líneas según se prefiera (siempre separados mediante punto y coma).</p>
+  <h3 class="externo">Externo</h3>
+  <p>Está basada en declarar los estilos CSS en un archivo independiente que puede servir como referente para dotar de estilos a decenas, cientos o miles de archivos html, que únicamente deberán invocar el nombre de archivo utilizando una sintaxis específica</p>
+</body>
+</html>
